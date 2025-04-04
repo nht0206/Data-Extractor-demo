@@ -1,0 +1,6 @@
+{
+    "II. CÁCH GIẢI": {
+        "problem": "CÁCH GIẢI Có hai cách phổ biến để tìm UCLN của hai số:",
+        "solution": "1. Phương pháp liệt kê ước chung - Liệt kê tất cả các ước của từng số. - Tìm các ước chung của chúng. - Chọn ước chung lớn nhất. Ví dụ: - Các ước của 12: 1, 2, 3, 4, 6, 12 - Các ước của 18: 1, 2, 3, 6, 9, 18 - Các ước chung: 1, 2, 3, 6 → UCLN(12, 18) = 6. 2. Phương pháp chia liên tiếp (Euclid): - Bước 1: Chia số lớn hơn cho số nhỏ hơn, lấy phần dư. - Bước 2: Lấy số nhỏ hơn chia cho phần dư vừa tìm được. - Bước 3: Lặp lại đến khi dư bằng 0, số chia cuối cùng chính là UCLN. Ví dụ: - Tìm UCLN(48, 18): 48 : 18 = 2 dư 12 18 : 12 = 1 dư 6 12 : 6 = 2 dư 0 → UCLN là 6."
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "I. ĐẶT VẤN ĐỀ": {
+        "char_range": [
+            30,
+            364
+        ],
+        "content": "I. ĐẶT VẤN ĐỀ Trong toán học, chúng ta thường gặp bài toán tìm ước chung lớn nhất (UCLN) của hai hay nhiều số. Ước chung lớn nhất là số lớn nhất có thể chia hết cho tất cả các số đã cho. Ví dụ: - UCLN(12, 18) = 6 vì 6 là số lớn nhất chia hết cho cả 12 và 18. - UCLN(24, 36, 48) = 12 vì 12 là số lớn nhất chia hết cho cả 24, 36 và 48. "
+    },
+    "II. CÁCH GIẢI": {
+        "char_range": [
+            364,
+            991
+        ],
+        "content": "II. CÁCH GIẢI Có hai cách phổ biến để tìm UCLN của hai số: 1. Phương pháp liệt kê ước chung - Liệt kê tất cả các ước của từng số. - Tìm các ước chung của chúng. - Chọn ước chung lớn nhất. Ví dụ: - Các ước của 12: 1, 2, 3, 4, 6, 12 - Các ước của 18: 1, 2, 3, 6, 9, 18 - Các ước chung: 1, 2, 3, 6 → UCLN(12, 18) = 6. 2. Phương pháp chia liên tiếp (Euclid): - Bước 1: Chia số lớn hơn cho số nhỏ hơn, lấy phần dư. - Bước 2: Lấy số nhỏ hơn chia cho phần dư vừa tìm được. - Bước 3: Lặp lại đến khi dư bằng 0, số chia cuối cùng chính là UCLN. Ví dụ: - Tìm UCLN(48, 18): 48 : 18 = 2 dư 12 18 : 12 = 1 dư 6 12 : 6 = 2 dư 0 → UCLN là 6. "
+    },
+    "III. CHÚ Ý": {
+        "char_range": [
+            991,
+            1191
+        ],
+        "content": "III. CHÚ Ý - Nếu một số là bội số của số còn lại, thì UCLN chính là số nhỏ hơn. - Hai số nguyên tố cùng nhau có UCLN là 1 (ví dụ: UCLN(7, 9) = 1). - Với ba số trở lên, tìm UCLN từng cặp rồi tiếp tục. "
+    },
+    "IV. VẬN DỤNG": {
+        "char_range": [
+            1191,
+            1324
+        ],
+        "content": "IV. VẬN DỤNG - Ứng dụng trong rút gọn phân số. - Giải bài toán về chia đều thành nhóm. - Ứng dụng trong lập trình tối ưu thuật toán. "
+    },
+    "V. BÀI TẬP": {
+        "char_range": [
+            1324,
+            1593
+        ],
+        "content": "V. BÀI TẬP 1. Tìm UCLN của các cặp số sau: a) 20 và 30 b) 56 và 98 c) 81 và 27 2. Tìm UCLN của các bộ ba số: a) 36, 60, 84 b) 45, 75, 105 3. Một lớp có 24 học sinh nam và 36 học sinh nữ. Hỏi có thể chia lớp thành bao nhiêu nhóm sao cho số học sinh mỗi nhóm là lớn nhất?"
+    }
+}
